@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/laurod56/teste.lauro-dev.online
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
